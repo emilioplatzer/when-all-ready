@@ -7,6 +7,13 @@
   "author": "Codenautas <codenautas@googlegroups.com>",
   "license": "MIT",
   "repository": "emilioplatzer/when-all-ready",
+  "qa-control": {
+    "package-version": "0.3.0",
+    "profile": "minimum",
+    "multilang": "yes",
+    "run-in": "client",
+    "type": "lib"
+  },
   "scripts": {
     "test": "mocha --reporter spec test/"
   },

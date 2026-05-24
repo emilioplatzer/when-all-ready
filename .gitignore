@@ -53,6 +53,10 @@ web_modules/
 # Optional eslint cache
 .eslintcache
 
+# local files
+local-*
+*-local.*
+
 # Optional stylelint cache
 .stylelintcache
 
