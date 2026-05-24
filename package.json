@@ -1,6 +1,19 @@
 {
   "name": "when-all-ready",
-  "version": "0.0.1",
-  "description": "On load? Yes but also wen load has already sent."
-  
+  "version": "3.0.0-beta.1",
+  "description": "Run handlers when everything is ready, even if 'load' already fired",
+  "type": "module",
+  "main": "when-all-ready.js",
+  "author": "Codenautas <codenautas@googlegroups.com>",
+  "license": "MIT",
+  "repository": "emilioplatzer/when-all-ready",
+  "scripts": {
+    "test": "mocha --reporter spec test/"
+  },
+  "devDependencies": {
+    "mocha": "~11.7.5"
+  },
+  "files": [
+    "when-all-ready.js"
+  ]
 }
