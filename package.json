@@ -11,6 +11,7 @@
     "package-version": "0.3.0",
     "profile": "minimum",
     "multilang": "yes",
+    "gha": "all",
     "run-in": "client",
     "type": "lib"
   },
