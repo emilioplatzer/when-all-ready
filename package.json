@@ -8,7 +8,6 @@
   "license": "MIT",
   "repository": "emilioplatzer/when-all-ready",
   "qa-control": {
-    "package-version": "0.3.0",
     "profile": "minimum",
     "multilang": "yes",
     "gha": "all",
@@ -16,11 +15,12 @@
     "type": "lib"
   },
   "scripts": {
-    "test": "mocha --reporter spec test/"
+    "test": "mocha --reporter spec test/",
+    "test-ci": "echo TODO"
   },
   "devDependencies": {
-    "mocha": "~11.7.5",
-    "qa-control": "^0.6.8"
+    "mocha": "~12.0.3",
+    "qa-control": "^0.13.0"
   },
   "files": [
     "when-all-ready.js"
