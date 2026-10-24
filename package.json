@@ -1,6 +1,6 @@
 {
   "name": "when-all-ready",
-  "version": "3.0.0-beta.2",
+  "version": "3.0.0-beta.3",
   "description": "Run handlers when everything is ready, even if 'load' already fired",
   "type": "module",
   "main": "when-all-ready.js",
